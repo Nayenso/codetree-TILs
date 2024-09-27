@@ -7,7 +7,7 @@ public class Main {
         int b = input.nextInt();
         int c = input.nextInt();
         int avg = (a+b+c)/3;
-        int re = (a+b+c)+avg;
+        int re = (a+b+c)-avg;
         System.out.print(a+b+c+"\n"+avg+"\n"+re);
     }
 }
