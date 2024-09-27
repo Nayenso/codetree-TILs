@@ -6,7 +6,7 @@ public class Main {
         int a = input.nextInt();
         if(a%3==0){
             System.out.print("YES");
-        }eles{
+        }else{
             System.out.print("NO");
         }
         if(a%5==0){
