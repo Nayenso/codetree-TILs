@@ -19,7 +19,7 @@ public class Main {
         if(a==b && a==c && b==c){
             System.out.print(" "+1);
         }else{
-            System.out.print(0);
+            System.out.print(" "+0);
         }
     }
 }
