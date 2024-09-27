@@ -8,7 +8,7 @@ public class Main {
         if(a%3==0 || a%5==0){
             System.out.print(1);
         }else{
-            System.out.pritn(0);
+            System.out.print(0);
         }
     }
 }
