@@ -15,10 +15,10 @@ public class Main {
             System.out.print(28);
         }else{
             if(flag == 0){
-                if(n%2 == 0){
-                    System.out.print(30);
-                }else{
+                if(n%2 != 0 || n == 8){
                     System.out.print(31);
+                }else{
+                    System.out.print(30);
                 }
             }else{
                 if(n%2 == 0){
