@@ -8,11 +8,13 @@ public class Main {
         int c = input.nextInt();
 
         int min = a;
-        if(min > b){
+
+        if(min >= b){
             min = b;
-        }else if(min > c){
+        }else if(min >= c){
             min = c;
         }
+
         System.out.print(min);
     }
 }
