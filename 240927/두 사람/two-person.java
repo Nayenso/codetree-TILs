@@ -6,9 +6,9 @@ public class Main {
         int A = input.nextInt();
         char aS = input.next().charAt(0);
         int B = input.nextInt();
-        char BS = input.next().charAt(0);
+        char bS = input.next().charAt(0);
 
-        if(A >= 19 || B >= 19){
+        if((A >= 19 && aS == 'M')|| (B >= 19 && bS == 'M')){
             System.out.print(1);
         }else{
             System.out.print(0);
