@@ -6,7 +6,7 @@ public class Main {
         double left = input.nextDouble();
         double right = input.nextDouble();
 
-        if(left >= 1.0 && rigth >= 1.0){
+        if(left >= 1.0 && right >= 1.0){
             System.out.print("High");
         }else if(left >= 0.5 && right >= 0.5){
             System.out.print("Middle");
