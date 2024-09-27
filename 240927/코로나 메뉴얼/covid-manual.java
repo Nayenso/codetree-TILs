@@ -2,6 +2,7 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
         int cnt = 0;
         char A = input.next().charAt(0);
         int a = input.nextInt();
