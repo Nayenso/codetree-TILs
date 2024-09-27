@@ -14,7 +14,7 @@ public class Main {
         }else if(min > c){
             min = c;
         }
-        System.out.print(a==min?1:0);
+        System.out.println(a==min?1:0);
 
         if(a==b && a==c && b==c){
             System.out.print(1);
