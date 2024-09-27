@@ -7,7 +7,7 @@ public class Main {
         int grade = (score == 100)?0:-1;
         if(grade == 0){
             System.out.print("pass");
-        }eles{
+        }else{
             System.out.print("failure");
         }
     }
