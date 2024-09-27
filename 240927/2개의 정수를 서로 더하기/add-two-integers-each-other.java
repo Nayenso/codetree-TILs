@@ -6,8 +6,8 @@ public class Main {
         int a = input.nextInt();
         int b = input.nextInt();
 
-        b+=a;
         a+=b;
+        b+=a;
         System.out.print(a+"\n"+b);
     }
 }
