@@ -11,7 +11,8 @@ public class Main {
 
         if(min > b){
             min = b;
-        }else{
+        }
+        if(min > c){
             min = c;
         }
 
