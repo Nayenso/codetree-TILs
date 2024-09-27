@@ -9,9 +9,9 @@ public class Main {
 
         int min = a;
 
-        if(min >= b){
+        if(min > b){
             min = b;
-        }else if(min >= c){
+        }else{
             min = c;
         }
 
