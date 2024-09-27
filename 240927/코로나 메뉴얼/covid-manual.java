@@ -3,12 +3,12 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) {
         int cnt = 0;
-        char A = next().charAt(0);
-        int a = nextInt();
-        char B = next().charAt(0);
-        int b = nextInt();
-        char C = next().charAt(0);
-        int c = nextInt();
+        char A = input.next().charAt(0);
+        int a = input.nextInt();
+        char B = input.next().charAt(0);
+        int b = input.nextInt();
+        char C = input.next().charAt(0);
+        int c = input.nextInt();
 
         if(A == 'Y' && a >= 37){
             cnt++;
