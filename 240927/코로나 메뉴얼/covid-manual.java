@@ -23,9 +23,6 @@ public class Main {
             cnt++;
         }
         
-        if(D == 'Y' && d >= 37){
-            cnt++;
-        }
         if(cnt >= 2){
             System.out.print("E");
         }else{
