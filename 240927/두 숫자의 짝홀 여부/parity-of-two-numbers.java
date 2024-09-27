@@ -7,9 +7,9 @@ public class Main {
         int b = input.nextInt();
 
         if(a%2 == 0){
-            System.out.print("even");
+            System.out.println("even");
         }else{
-            System.out.print("odd");
+            System.out.println("odd");
         }
                 if(b%2 == 0){
             System.out.print("even");
