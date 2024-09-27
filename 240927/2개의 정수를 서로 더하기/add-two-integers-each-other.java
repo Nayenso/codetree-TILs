@@ -8,6 +8,6 @@ public class Main {
 
         a+=b;
         b+=a;
-        System.out.print(a+"\n"+b);
+        System.out.print(a+" "+b);
     }
 }
