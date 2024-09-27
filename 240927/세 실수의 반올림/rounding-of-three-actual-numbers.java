@@ -7,6 +7,6 @@ public class Main {
         double b = input.nextDouble();
         double c = input.nextDouble();
 
-        Systme.out.printf("%.3f\n%.3f\n%.3f",a,b,c);
+        System.out.printf("%.3f\n %.3f\n %.3f",a,b,c);
     }
 }
