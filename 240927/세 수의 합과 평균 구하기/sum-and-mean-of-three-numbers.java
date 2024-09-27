@@ -7,6 +7,6 @@ public class Main {
         int b = input.nextInt();
         int c = input.nextInt();
         double avg = ((double)a+b+c)/3;
-        System.out.printf("%d\n%f",a+b+c,avg);
+        System.out.printf("%d\n%.0f",a+b+c,avg);
     }
 }
