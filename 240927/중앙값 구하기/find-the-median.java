@@ -7,7 +7,7 @@ public class Main {
         int b = input.nextInt();
         int c = input.nextInt();
 
-        int mid;
+        int mid = 0;
         if((a < b && b < c) || (c < b && b < a)){
             mid = b;
         }else if((a < c && c < b) || (b < c && c < a)){
