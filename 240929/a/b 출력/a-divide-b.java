@@ -6,7 +6,14 @@ public class Main {
         int a = input.nextInt();
         int b = input.nextInt();
 
-        double re = (double)a/b;
-        System.out.printf("%.20f", re);
+        System.out.print(a/b+".");
+        a%=b;
+
+        for(int i = 0; i<20; i++){
+            a*=10;
+            System.out.print(a/b);
+            a%=b; 
+        }
+
     }
 }
