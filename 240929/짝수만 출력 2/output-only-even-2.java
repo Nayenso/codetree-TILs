@@ -8,8 +8,9 @@ public class Main {
 
         while(b>=a){
             if(b%2==0){
-                System.out.print(b-- +" ");
+                System.out.print(b +" ");
             }
+            b--;
         }
     }
 }
