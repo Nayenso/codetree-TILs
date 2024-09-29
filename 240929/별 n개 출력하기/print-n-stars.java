@@ -7,6 +7,7 @@ public class Main {
         int i= 0;
         while(i < n){
             System.out.println("*");
+            i++;
         }
     }
 }
