@@ -6,7 +6,7 @@ public class Main {
         int n =input.netInt();
         int i= 0;
         while(i < n){
-            Sysyem.out.printin("*");
+            Sysyem.out.println("*");
         }
     }
 }
