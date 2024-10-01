@@ -6,7 +6,7 @@ public class Main {
         int a = input.nextInt();
         int b = input.nextInt();
         while(a<b){
-            System.out.print(a);
+            System.out.print(a+" ");
             if(a%2!=0){
                 a*=2;
             }
