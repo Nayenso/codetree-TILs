@@ -9,7 +9,7 @@ public class Main {
             if(i%2==0||i%3==0){
                 System.out.print(1+" ");
             }else{
-                System.out.print(0+" ")
+                System.out.print(0+" ");
             }
         }
     }
