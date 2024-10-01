@@ -4,10 +4,10 @@ public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int n = input.nextInt();
-        int flag = 0;
 
         for(int i=1; i<=n; i++){
             int a = i;
+            int flag = 0;
             while(a>0){
                 if(a%10==3||a%10==6||a%10==9){
                     flag = -1;
