@@ -8,7 +8,7 @@ public class Main {
 
         for(int i=0; i<n; i++){
             int num = input.nextInt();
-            if(num%2!=0 && n%3==0){
+            if(num%2!=0 && num%3==0){
                 sum+=num;
             }
         }
