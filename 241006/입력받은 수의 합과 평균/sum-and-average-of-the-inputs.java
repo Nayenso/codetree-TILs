@@ -12,6 +12,6 @@ public class Main {
             sum+=a;
         }
         avg = (double)sum/n;
-        System.out.print("%d %.1f",sum,avg);
+        System.out.printf("%d %.1f",sum,avg);
     }
 }
