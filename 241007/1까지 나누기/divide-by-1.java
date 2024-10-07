@@ -7,11 +7,10 @@ public class Main {
         int cnt = 0, i = 1;
 
         while(n/i>=1){
-            n /= i;
-            i++;
+            n /= i++;
             cnt++;
         }
 
-        System.out.print(cnt);
+        System.out.print(cnt+1);
     }
 }
