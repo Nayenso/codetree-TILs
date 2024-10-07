@@ -13,7 +13,8 @@ public class Main {
                 flag = false;
             }
         }
-        if(flag = false){
+
+        if(flag = true){
             System.out.print("YES");
         }else{
             System.out.print("NO");
