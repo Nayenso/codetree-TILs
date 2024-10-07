@@ -14,7 +14,6 @@ public class Main {
                 cnt++;
             }else{
                 cnt++;
-                continue;
             }
         }
     }
