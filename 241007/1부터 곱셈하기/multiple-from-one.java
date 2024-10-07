@@ -7,7 +7,7 @@ public class Main {
         int s = 1;
         for(int i=1; i<=10; i++){
             s*=i;
-            if(i>=n){
+            if(s>=n){
                 System.out.print(i);
                 break;
             }
