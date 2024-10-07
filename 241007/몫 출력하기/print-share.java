@@ -12,8 +12,6 @@ public class Main {
             if(n%2==0){
                 System.out.println(n/2);
                 cnt++;
-            }else{
-                cnt++;
             }
         }
     }
