@@ -14,7 +14,7 @@ public class Main {
             }
         }
 
-        if(flag = true){
+        if(flag == true){
             System.out.print("YES");
         }else{
             System.out.print("NO");
