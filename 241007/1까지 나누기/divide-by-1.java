@@ -6,7 +6,7 @@ public class Main {
         int n = input.nextInt();
         int cnt = 0, i = 1;
 
-        while(n/i>=1){
+        while(n/i>1){
             n /= i++;
             cnt++;
         }
