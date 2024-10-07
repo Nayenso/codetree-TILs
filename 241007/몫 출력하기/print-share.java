@@ -6,7 +6,7 @@ public class Main {
         for(int i=1; i<=3; i++){
             int n = input.nextInt();
             if(n%2==0){
-                System.out.print(n/2);
+                System.out.println(n/2);
             }else{
                 continue;
             }
