@@ -9,7 +9,7 @@ public class Main {
         boolean flag = true;
 
         for(int i=a; i<=b; i++){
-            if(i%c!=0){
+            if(i%c != 0){
                 flag = false;
             }
         }
