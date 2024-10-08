@@ -16,10 +16,10 @@ public class Main {
             sum+=a;
         }
         if(sum/n>=4.0){
-            System.out.println(sum/n);
+            System.out.printf("%.1f\n",sum/n);
             System.out.print("Perfect");
         }else if(sum/n>=3.0){
-            System.out.println(sum/n);
+            System.out.printf("%.1f\n",sum/n);
             System.out.print("Good");
         }else {
             System.out.println(sum/n);
