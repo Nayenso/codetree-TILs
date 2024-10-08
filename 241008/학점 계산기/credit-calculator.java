@@ -15,14 +15,15 @@ public class Main {
         for(double a : grade){
             sum+=a;
         }
+        double avg = sum/n;
         if(sum/n>=4.0){
-            System.out.printf("%.1f\n",sum/n);
+            System.out.printf("%.1f\n",avg);
             System.out.print("Perfect");
         }else if(sum/n>=3.0){
-            System.out.printf("%.1f\n",sum/n);
+            System.out.printf("%.1f\n",avg);
             System.out.print("Good");
         }else {
-            System.out.println(sum/n);
+            System.out.printf("%.1f\n",avg);
             System.out.print("Poor");
         }
     }
