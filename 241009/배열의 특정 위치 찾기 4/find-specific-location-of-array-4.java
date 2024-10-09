@@ -7,12 +7,12 @@ public class Main {
 
         for(int i=0; i<10; i++){
             arr[i] = sc.nextInt();
+            if(arr[i] == 0){
+                break;
+            }
             if(arr[i]%2==0){
                 sum+=arr[i];
                 cnt++;
-            }
-            if(arr[i] == 0){
-                break;
             }
         }
         System.out.printf("%d %d",cnt,sum);
