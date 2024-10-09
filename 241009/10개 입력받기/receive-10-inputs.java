@@ -12,6 +12,6 @@ public class Main {
             sum+=n;
             cnt++;
         }
-        System.out.print("%.1f",(double)sum/cnt);
+        System.out.printf("%.1f",(double)sum/cnt);
     }
 }
