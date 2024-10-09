@@ -2,7 +2,7 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        Scnner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         int sum=0;
 
         for(int i=0; i<8; i++){
