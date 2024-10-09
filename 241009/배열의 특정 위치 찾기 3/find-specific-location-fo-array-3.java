@@ -10,6 +10,7 @@ public class Main {
             n[i] = sc.nextInt();
             if(n[i]==0){
                 index=i-1;
+                break;
             }
         }
         int sum = n[index]+n[index-1]+n[index-2];
