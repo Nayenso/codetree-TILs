@@ -7,7 +7,7 @@ public class Main {
         int[] n = new int[10];
         for(int i=0; i<10; i++){
             n[i] = sc.nextInt();
-            if(n[i]%2==0){
+            if(i%2==0){
                 even+=n[i];
             }else{
                 odd+=n[i];
