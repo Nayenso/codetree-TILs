@@ -6,13 +6,13 @@ public class Main {
         int[] n = new int[10];
         int sum1=0, sum2=0, cnt=0;
 
-        for(int i=0; i<10; i++){
-            n[i] = sc.nextInt();
-            if(n[i]%2==0){
-                sum1+=n[i];
+        for(int i=1; i<=10; i++){
+            n[i-1] = sc.nextInt();
+            if(i%2==0){
+                sum1+=n[i-1];
             }
-            if(n[i]%3==0){
-                sum2+=n[i];
+            if(i%3==0){
+                sum2+=n[i-1];
                 cnt++;
             }
         }
