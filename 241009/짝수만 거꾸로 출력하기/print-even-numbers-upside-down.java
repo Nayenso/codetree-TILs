@@ -7,6 +7,8 @@ public class Main {
         int[] num = new int[n];
         for(int i=0; i<n; i++){
             num[i] = sc.nextInt();
+        }
+        for(int i=n-1; i>=0; i--){
             if(num[i]%2==0){
                 System.out.print(num[i]+" ");
             }
