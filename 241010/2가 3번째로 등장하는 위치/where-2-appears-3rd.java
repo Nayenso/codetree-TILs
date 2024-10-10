@@ -10,13 +10,17 @@ public class Main {
 
         for(int i=0; i<n; i++){
             arr[i] = sc.nextInt();
+        }
+
+        for(int i=0; i<n; i++){
+            if(cnt==3){
+                index = i;
+                break;
+            }
             if(arr[i]==2){
                 cnt++;
             }
-            if(cnt==3){
-                index= i;
-            }
         }
-        System.out.print(index+1);
+        System.out.print(index);
     }
 }
