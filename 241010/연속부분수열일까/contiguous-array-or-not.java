@@ -25,6 +25,9 @@ public class Main {
                             break;
                         }
                     }
+                if(flag == true){
+                    break;
+                }
                 }
             }
 
