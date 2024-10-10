@@ -3,9 +3,8 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-    }
 
-    int[] arr = new int[100];
+            int[] arr = new int[100];
     int cnt = 0;
     int max = Integer.MIN_VALUE, min = Integer.MAX_VALUE;
 
@@ -16,14 +15,16 @@ public class Main {
             break;
         }
     }
-    for(int i=0 i<cnt; i++){
-        if(max < arr[i]){
+    for(int i=0; i<cnt; i++){
+        if(max < arr[i] && arr[i] != 999){
             max = arr[i];
         }
-        if(min > arr[i]){
+        if(min > arr[i] && arr[i] != -999){
             min = arr[i];
         }
     }
 
     System.out.print(max+" "+min);
+    }
+
 }
