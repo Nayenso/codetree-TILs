@@ -7,6 +7,7 @@ public class Main {
         int n = sc.nextInt();
         int cnt = 0, index = 0;
         int[] arr = new int[n];
+
         for(int i=0; i<n; i++){
             arr[i] = sc.nextInt();
             if(arr[i]==2){
@@ -16,6 +17,6 @@ public class Main {
                 index= i;
             }
         }
-        System.out.print(i+1);
+        System.out.print(index+1);
     }
 }
