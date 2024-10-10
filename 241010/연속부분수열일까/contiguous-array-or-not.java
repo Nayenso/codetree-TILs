@@ -16,6 +16,7 @@ public class Main {
         }
         if(n2 > n1){
             System.out.print("No");
+            return;
         }else{
             for(int i=0; i<=n1-n2; i++){
                 flag = true;
@@ -25,13 +26,13 @@ public class Main {
                             break;
                         }
                     }
-                if(flag == true){
+                if(flag){
                     break;
                 }
                 }
             }
 
-        if(flag == true){
+        if(flag){
             System.out.print("Yes");
         }else{
             System.out.print("No");
