@@ -9,10 +9,12 @@ public class Main {
         int index = -1;
 
         for(int i=0; i<6; i++){
-            if(c[i]=='t'){
+            if(c[i]==t){
                 index = i;
+                break;
             }
         }
+
         if(index == -1){
             System.out.print("None");
         }else{
