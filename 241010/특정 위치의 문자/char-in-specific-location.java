@@ -5,7 +5,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
         char[] c = {'L','E','B','R','O','S'};
-        char t = sc.next().charAt();
+        char t = sc.next().charAt(0);
         int index = -1;
 
         for(int i=0; i<6; i++){
