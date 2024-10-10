@@ -13,14 +13,14 @@ public class Main {
         }
 
         for(int i=0; i<n; i++){
+            if(arr[i]==2){
+                cnt++;
+            }
             if(cnt==3){
                 index = i;
                 break;
             }
-            if(arr[i]==2){
-                cnt++;
-            }
         }
-        System.out.print(index);
+        System.out.print(index+1);
     }
 }
