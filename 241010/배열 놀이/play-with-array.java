@@ -16,21 +16,25 @@ public class Main {
             int flag = sc.nextInt();
             if(flag == 1){
                 int index = sc.nextInt();
-                System.out.println(arr[index]);
+                System.out.println(arr[index-1]);
             }else if(flag == 2){
                 int num = sc.nextInt();
-                for(int i=0; i<n; i++){
-                    if(arr[i]==num){
-                        System.out.println(i);
+                int Q = -1;
+                for(int j=0; j<n; j++){
+                    if(arr[j]==num){
+                        System.out.println(j+1);
+                        Q = 0;
                         break;
                     }
                 }
-                System.out.println(0);
+                if(Q == -1){
+                    System.out.println(0);
+                }
             }else if(flag == 3){
                 int s = sc.nextInt();
                 int e = sc.nextInt();
-                for(int i=s; i<=e; i++){
-                    System.out.print(arr[i]+" ");
+                for(int t=s-1; t<=e-1; t++){
+                    System.out.print(arr[t]+" ");
                 }
                 System.out.println();
             }
