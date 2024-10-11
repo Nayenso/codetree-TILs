@@ -22,7 +22,7 @@ public class Main {
             System.out.print(0);
             return;
         }
-        for(int i=index+1; i<n; i++){
+        for(int i=index; i<n; i++){
             if(price[i]>max){
                 max = price[i];
             }
