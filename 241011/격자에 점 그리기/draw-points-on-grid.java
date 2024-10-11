@@ -10,7 +10,7 @@ public class Main {
         for(int i=0; i<m; i++){
             int a = sc.nextInt();
             int b = sc.nextInt();
-            arr[a-1][b-1] = k++;
+            arr[a-1][b-1] = num++;
         }
 
         for(int i=0; i<n; i++){
