@@ -18,10 +18,11 @@ public class Main {
                 index = i;
             }
         }
-        if(min == price[n-1]){
+        if(index == n-1){
             System.out.print(0);
             return;
         }
+
         for(int i=index; i<n; i++){
             if(price[i]>max){
                 max = price[i];
