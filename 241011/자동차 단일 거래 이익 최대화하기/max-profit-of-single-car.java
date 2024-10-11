@@ -13,7 +13,7 @@ public class Main {
         }
 
         for(int i=0; i<n; i++){
-            if(price[i] <= min){
+            if(price[i] < min){
                 min = price[i];
                 index = i;
             }
@@ -27,6 +27,10 @@ public class Main {
             if(price[i]>max){
                 max = price[i];
             }
+        }
+        if(max==min || max == Integer.MIN_VALUE){
+            System.out.print(0);
+            return;
         }
         System.out.print(max-min);
     }
