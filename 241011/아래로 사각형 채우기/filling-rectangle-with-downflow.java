@@ -5,10 +5,11 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int[][] arr = new int[n][n];
+        int num = 1;
 
         for(int i=0; i<arr.length; i++){
             for(int j=0; j<arr[i].length; j++){
-                arr[j][i] = sc.nextInt();
+                arr[j][i] = num++;
             }
         }
 
