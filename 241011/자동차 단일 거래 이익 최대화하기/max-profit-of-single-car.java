@@ -31,7 +31,8 @@ public class Main {
         if(max==min || max == Integer.MIN_VALUE){
             System.out.print(0);
             return;
+        }else{
+            System.out.print(max-min);
         }
-        System.out.print(max-min);
     }
 }
