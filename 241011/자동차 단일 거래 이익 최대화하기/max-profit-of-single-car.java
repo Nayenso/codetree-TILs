@@ -13,7 +13,7 @@ public class Main {
         }
 
         for(int i=0; i<n; i++){
-            if(price[i] < min){
+            if(price[i] <= min){
                 min = price[i];
                 index = i;
             }
@@ -23,7 +23,7 @@ public class Main {
             return;
         }
 
-        for(int i=index; i<n; i++){
+        for(int i=index+1; i<n; i++){
             if(price[i]>max){
                 max = price[i];
             }
