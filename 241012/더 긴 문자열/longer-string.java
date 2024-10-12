@@ -5,6 +5,6 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         String s1 = sc.next();
         String s2 = sc.next();
-        System.out.print(s1.length()>s2.length()?s1:s2+" "+s1.length()>s2.length()?s1.length():s2.length());
+        System.out.print((s1.length()>s2.length()?s1:s2)+" "+(s1.length()>s2.length()?s1.length():s2.length()));
     }
 }
