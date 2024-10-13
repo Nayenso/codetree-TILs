@@ -7,7 +7,7 @@ public class Main {
         String str = sc.next();
         int n = sc.nextInt();
 
-        for(int i=str.length()-1; i>=n-1; i--){
+        for(int i=str.length()-1; i>=str.length()-11; i--){
             System.out.print(str.charAt(i));
         }
     }
