@@ -14,7 +14,7 @@ public class Main {
         for(int i=0; i<10; i++){
             int index = str[i].length();
             if(str[i].charAt(index-1) == c){
-                System.out.println(str);
+                System.out.println(str[i]);
                 flag = true;
             }
         }
