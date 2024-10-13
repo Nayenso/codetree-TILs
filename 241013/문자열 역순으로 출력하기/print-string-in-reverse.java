@@ -9,7 +9,7 @@ public class Main {
             str[i] = sc.nextLine();
         }
 
-        for(int i=n-1; i>=0; i--){
+        for(int i=3; i>=0; i--){
             System.out.println(str[i]);
         }
     }
