@@ -12,7 +12,7 @@ public class Main {
             System.out.print(A);
         }else{
             for(int i=0; i<aLen-bLen+1; i++){
-                int index=A.indexOf(B);
+                int index=A.indexOf(B,i);
                 if(index == -1){
                     break;
                 }
