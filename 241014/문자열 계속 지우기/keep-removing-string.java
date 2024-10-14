@@ -12,11 +12,15 @@ public class Main {
             System.out.print(A);
         }else{
             for(int i=0; i<aLen-bLen+1; i++){
-                int index=A.indexOf(B,i);
+                int index = A.indexOf(B);
                 if(index == -1){
+                    if(A.equals(B)){
+                        System.out.print("");
+                        return
+                    }
                     break;
                 }
-                A = A.substring(0,index)+A.substring(bLen+index);
+                A = A.substring(0,index) + A.substring(bLen+index);
                 aLen = A.length();
             }
         }
