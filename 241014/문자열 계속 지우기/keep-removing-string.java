@@ -15,7 +15,7 @@ public class Main {
                 int index = A.indexOf(B);
                 if(index == -1){
                     if(A.equals(B)){
-                        System.out.print("");
+                        System.out.print();
                         return
                     }
                     break;
