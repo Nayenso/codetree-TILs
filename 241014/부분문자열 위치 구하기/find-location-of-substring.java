@@ -7,8 +7,8 @@ public class Main {
         String cp = sc.next();
         int l = cp.length(), index = -1;
 
-        for(int i=0; i<str.length()-cp+1; i++){
-            if(str.substring(i,i+l+1)){
+        for(int i=0; i<str.length()-l+1; i++){
+            if(str.substring(i,i+l).equals(cp)){
                 index = i;
                 break;
             }
