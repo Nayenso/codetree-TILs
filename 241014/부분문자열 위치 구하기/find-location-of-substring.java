@@ -8,7 +8,7 @@ public class Main {
         int l = cp.length(), index = -1;
 
         for(int i=0; i<str.length()-cp+1; i++){
-            if(str.substring(i,i+l)){
+            if(str.substring(i,i+l+1)){
                 index = i;
                 break;
             }
