@@ -4,7 +4,16 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String str = sc.next();
-        System.out.print(str.substring(0,2)+str.substring(3,str.length()-2)+str.substring(str.length()-1));
+        char[] c = str.toCharArray();
+        String re = "";
 
+        for(int i=0; i<c.length; i++){
+            if(i==1|| i==c.length-2){
+                continue;
+            }else{
+                re+=c[i];
+            }
+        }
+        System.out.print(re);
     }
 }
