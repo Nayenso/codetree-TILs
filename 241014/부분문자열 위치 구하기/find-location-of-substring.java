@@ -5,8 +5,15 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         String str = sc.next();
         String cp = sc.next();
-        
-        System.out.print(str.indexOf(cp));
+        int l = cp.length(), index = -1;
+
+        for(int i=0; i<str.length()-cp+1; i++){
+            if(str.substring(i,i+l)){
+                index = i;
+                break;
+            }
+        }
+        System.out.print(index);
         
     }
 }
