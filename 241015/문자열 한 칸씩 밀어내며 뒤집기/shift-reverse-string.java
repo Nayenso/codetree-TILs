@@ -30,7 +30,8 @@ public class Main {
                         start++;
                         end--;
                     }
-                    System.out.println(String.valueOf(t));
+                    str = String.valueOf(t);
+                    System.out.println(str);
                     break;
             }
         }
