@@ -9,7 +9,7 @@ public class Main {
         for(int i=0; i<n; i++){
             int odd = num;
             for(int j=0; j<n; j++){
-                System.out.print(num+" ");
+                System.out.print(odd+" ");
                 odd+=2;
             }
             num+=2;
