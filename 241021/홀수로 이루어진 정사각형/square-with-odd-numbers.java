@@ -7,11 +7,12 @@ public class Main {
         int num = 11;
 
         for(int i=0; i<n; i++){
+            int odd = num;
             for(int j=0; j<n; j++){
                 System.out.print(num+" ");
-                num+=2;
+                odd+=2;
             }
-            num -= 4;
+            num+=2;
             System.out.println();
         }
     }
