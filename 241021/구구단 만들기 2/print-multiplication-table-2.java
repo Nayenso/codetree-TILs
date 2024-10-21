@@ -8,8 +8,8 @@ public class Main {
         int t = 2;
 
         while(t<=8){
+
             for(int i=b; i>=a; i--){
-                int t = 2;
                 System.out.print(i+" * "+t+" = "+(i*t));
                 if(i!=a){
                 System.out.print(" / ");
