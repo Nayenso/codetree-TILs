@@ -9,7 +9,11 @@ public class Main {
         for(int i=1; i<=n; i++){
             for(int j=1; j<=i; j++){
                 System.out.print(a);
-                a++;
+                if(a=='Z'){
+                    a = 'A';
+                }else{
+                    a++;
+                }
             }
             System.out.println();
         }
