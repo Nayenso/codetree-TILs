@@ -25,16 +25,6 @@ public class Main {
             max = Integer.MIN_VALUE;
             for(int i=0; i<index; i++){
                 if(max < arr[i]){
-            \}
-            System.out.print((index+1)+" ");
-            if(index==0){
-                break;
-            \}
-        \}
-    \}
-\}
-349public class Main {    public static void main(String[] args) {        for(int i=0; i<n; i++){
-$0
                     max = arr[i];
                     index = i;
                 }
