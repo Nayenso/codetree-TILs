@@ -5,7 +5,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int m = sc.nextInt();
-        System.out.print(n*makeNum(n,m));
+        System.out.print((n*m)/makeNum(n,m));
     }
     
     public static int makeNum(int n, int m){
