@@ -9,7 +9,7 @@ public class Main {
 
         switch(o){
             case '+':
-                System.out.printf("%d %c %d = %d",a,o,c,(plus(a,c)));
+                System.out.printf("%d %c %d = %d",a,o,c,plus(a,c));
                 break;
             case '-':
                 System.out.printf("%d %c %d = %d",a,o,c,minus(a,c));
@@ -18,7 +18,7 @@ public class Main {
                 System.out.printf("%d %c %d = %d",a,o,c,multi(a,c));
                 break;
             case '/':
-                System.out.printf("%d %c %d = %d",a,o,c,minus(a,c));
+                System.out.printf("%d %c %d = %d",a,o,c,divide(a,c));
                 break;
             default:
                 System.out.print("False");
