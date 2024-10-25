@@ -11,6 +11,6 @@ public class Main {
         for(int i=1; i<=n; i++){
             total+=i;
         }
-        return sum;
+        return total;
     }
 }
