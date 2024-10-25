@@ -15,13 +15,13 @@ public class Main {
     }
 
     public static boolean isNum(int n){
-        if(n!=2){
+        if(n%2==0){
             return false;
         }
-        if(n%10!=5){
+        if(n%10==5){
             return false;
         }
-        if(n%3!=0 || n%9==0){
+        if(n%3==0 && n%9!=0){
             return false;
         }
         return true;
