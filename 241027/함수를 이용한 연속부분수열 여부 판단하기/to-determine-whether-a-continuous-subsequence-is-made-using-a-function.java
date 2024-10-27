@@ -29,7 +29,7 @@ public class Main {
             boolean temp = true;
             if(A[i]==B[0]){
                 for(int j=0; j<s2; j++){
-                    if(A[i]!=B[j]){
+                    if(A[i+j]!=B[j]){
                         temp = false;
                     }
                 }
