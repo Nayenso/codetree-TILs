@@ -25,7 +25,7 @@ public class Main {
     public static boolean isContain(int[] A, int[] B){
         boolean flag = false;
         int s1 = A.length, s2 = B.length;
-        for(int i=0; i<s1-s2; i++){
+        for(int i=0; i<=s1-s2; i++){
             boolean temp = true;
             if(A[i]==B[0]){
                 for(int j=0; j<s2; j++){
