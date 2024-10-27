@@ -16,7 +16,7 @@ public class Main {
             B[i] = sc.nextInt();
         }
         boolean re = isContain(A,B);
-        if(re==true){
+        if(re){
             System.out.print("Yes");
         }else{
             System.out.print("No");
@@ -34,10 +34,10 @@ public class Main {
                     }
                 }
             }
-            if(temp == true){
-                return true;
+            if(temp == false){
+                return false;
             }
         }
-        return false;
+        return true;
     }
 }
