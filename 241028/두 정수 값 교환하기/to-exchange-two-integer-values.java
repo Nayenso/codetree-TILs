@@ -15,7 +15,7 @@ public class Main {
         makeNum a = new makeNum(n);
         makeNum b = new makeNum(m);
         swap(a,b);
-        System.out.printf("%d %d",a,b);
+        System.out.printf("%d %d",a.value,b.value);
     }
 
     public static void swap(makeNum a, makeNum b){
