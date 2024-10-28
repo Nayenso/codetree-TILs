@@ -8,17 +8,34 @@ public class Main {
         int n = sc.nextInt();
         size = n*2;
         int[] arr = new int[size];
-        int m1 = size/2-1, m2 = m1+1;
 
         inNum(arr);
-        
-        Arrays.sort(arr);
-        System.out.print(arr[m1]+arr[m2]);
+        System.out.print(checkMax(arr));
     }
 
     public static void inNum(int[] a){
         for(int i=0; i<a.length; i++){
             a[i] = sc.nextInt();
         }
+    }
+
+    public static int checkMax(int[] a){
+        Arrays.sort(a);
+        int max = Integer.MIN_VALUE, index = 0;
+        int s = 0, e = a.length-1;
+        int[] aMax = new int[a.length/2];
+
+        while(s<e){
+            int n = a[s]+a[e];
+            aMax[index++] = n;
+            s++;
+            e--;
+        }
+        return findMax(aMax);
+    }
+
+    public static int findMax(int[] arr){
+        Arrays.sort(arr);
+        return arr[arr.length-1];
     }
 }
