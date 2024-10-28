@@ -20,7 +20,7 @@ public class Main {
         }
 
         char[] temp1 = s1.toCharArray();
-        char[] temp2 = s1.toCharArray();
+        char[] temp2 = s2.toCharArray();
 
         Arrays.sort(temp1);
         Arrays.sort(temp2);
