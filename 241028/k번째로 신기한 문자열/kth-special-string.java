@@ -34,10 +34,7 @@ public class Main {
         for(int i=0; i<s.length; i++){
             String temp1 = s[i].substring(0,len);
             if(temp1.equals(T)){
-                arr[index] = s[i];
-                if(i<s.length-1){
-                    index++;
-                }
+                arr[index++] = s[i];
             }
         }
         Arrays.sort(arr);
