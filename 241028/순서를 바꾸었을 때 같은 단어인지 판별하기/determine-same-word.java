@@ -15,13 +15,13 @@ public class Main {
     }
 
     public static boolean isSame(String s1, String s2){
+        if(s1.length()!=s2.length()){
+            return false;
+        }
+
         char[] temp1 = s1.toCharArray();
         char[] temp2 = s1.toCharArray();
 
-        if(temp1.length!=temp2.length){
-            return false;
-        }
-        
         Arrays.sort(temp1);
         Arrays.sort(temp2);
 
