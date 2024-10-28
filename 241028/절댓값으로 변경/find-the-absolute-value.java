@@ -17,7 +17,7 @@ public class Main {
     }
 
     public static void change(int[] arr){
-        for(int i=0; i<n; i++){
+        for(int i=0; i<arr.length; i++){
             if(arr[i]<0){
                 arr[i] *= (-1);
             }
