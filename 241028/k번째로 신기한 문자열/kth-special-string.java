@@ -17,28 +17,29 @@ public class Main {
     public static void inWord(String[] s, int k){
         int cnt = 0;
 
-        for(int i=0; i<s.length; i++){
+        for (int i = 0; i < s.length; i++) {
             s[i] = sc.next();
-            String temp = s[i].substring(0,len);
-            if(temp.equals(T)){
+            String temp = s[i].substring(0, len);
+            if (temp.equals(T)) {
                 cnt++;
             }
         }
+
         System.out.print(findOption(cnt, s, k));
     }
 
-    public static String findOption(int cnt, String[] s, int k){
+    public static String findOption(int cnt, String[] s, int k) {
         String[] arr = new String[cnt];
         int index = 0;
 
-        for(int i=0; i<s.length; i++){
-            String temp1 = s[i].substring(0,len);
-            if(temp1.equals(T)){
+        for (int i = 0; i < s.length; i++) {
+            String temp1 = s[i].substring(0, len);
+            if (temp1.equals(T)) {
                 arr[index++] = s[i];
             }
         }
+
         Arrays.sort(arr);
         return arr[k-1];
     }
-
 }
