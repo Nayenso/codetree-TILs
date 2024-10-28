@@ -20,7 +20,7 @@ public class Main {
             return (1<=D && D<=30);
         }
         if(M==1||M==3||M==5||M==7||M==8||M==10||M==12){
-            return (1<=D && D<=30);
+            return (1<=D && D<=31);
         }
         return false;
     }
