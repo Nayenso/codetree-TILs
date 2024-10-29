@@ -19,7 +19,7 @@ public class Main {
 
         for (int i = 0; i < s.length; i++) {
             s[i] = sc.next();
-            if(s[i].length()<len){
+            if (s[i].length() < len) {
                 continue;
             }
             String temp = s[i].substring(0, len);
@@ -36,9 +36,11 @@ public class Main {
         int index = 0;
 
         for (int i = 0; i < s.length; i++) {
-            String temp1 = s[i].substring(0, len);
-            if (temp1.equals(T)) {
-                arr[index++] = s[i];
+            if (s[i].length() >= len) {
+                String temp1 = s[i].substring(0, len);
+                if (temp1.equals(T)) {
+                    arr[index++] = s[i];
+                }
             }
         }
 
