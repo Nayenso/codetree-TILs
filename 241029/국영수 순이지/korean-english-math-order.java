@@ -17,12 +17,12 @@ class grade implements Comparable<grade>{
     public int compareTo(grade temp){
         if(this.kor == temp.kor){
             if(this.eng == temp.eng){
-                return this.math - temp.math;
+                return temp.math- this.math;
             }else{
-                return this.eng - temp.eng;
+                return temp.eng - this.eng;
             }
         }
-        return this.kor - temp.kor;
+        return temp.kor - this.kor;
     }
 }
 public class Main {
