@@ -10,7 +10,7 @@ public class Main {
             System.out.print(-1);
         }
         int t = checkTime(a,b,c);
-        if(t>0){
+        if(t>=0){
             System.out.print(t);
         }
     }
