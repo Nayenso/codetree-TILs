@@ -9,7 +9,10 @@ public class Main {
         if(a < 11 || (a==11 && b<11) || (a==11 && b==11 && c<11)){
             System.out.print(-1);
         }
-        System.out.print(checkTime(a,b,c));
+        int t = checkTime(a,b,c);
+        if(t>0){
+            System.out.print(t);
+        }
     }
 
     public static int checkTime(int day, int hour, int min){
