@@ -19,11 +19,6 @@ public class Main {
             start = check(index, op, start);
         }
 
-        for(int i=0; i<2001; i++){
-            if(arr[i]>=2){
-                cnt++;
-            }
-        }
         System.out.print(cnt);
     }
 
@@ -33,12 +28,18 @@ public class Main {
         if(op == 'R'){
             for(int i=start; i<start+index; i++){
                 arr[i]++;
+                if(arr[i] == 2){
+                    cnt++;
+                }
             }
             temp = start+index;
         }
         if(op == 'L'){
             for(int i=start; i>start-index; i--){
                 arr[i]++;
+                if(arr[i] == 2){
+                    cnt++;
+                }
             }
             temp = start-index;
         }
