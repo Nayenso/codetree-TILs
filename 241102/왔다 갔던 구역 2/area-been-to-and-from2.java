@@ -8,8 +8,8 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        arr = new int[2001];
-        start = 1001;
+        arr = new int[4001];
+        start = 2000;
         cnt = 0;
 
         for(int i=0; i<n; i++){
