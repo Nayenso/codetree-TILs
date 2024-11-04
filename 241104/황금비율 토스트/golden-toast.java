@@ -6,11 +6,12 @@ public class Main {
         int n = sc.nextInt();
         int m = sc.nextInt();
         char[] cTemp = new char[n];
+        String str = sc.next();
+
         LinkedList<Character> c = new LinkedList<>();
-        sc.nextLine();
 
         for (int j = 0; j < n; j++) {
-            cTemp[j] = sc.next().charAt(0);
+            cTemp[j] = str.charAt(j);
         }
         for (int j = 0; j < n; j++) {
             c.add(cTemp[j]);
@@ -42,9 +43,6 @@ public class Main {
                 case 'D': {
                     if(i.hasNext()){
                         i.next();
-                    }
-                    if(i.hasPrevious()){
-                        i.previous();
                         i.remove();
                     }
                     break;
