@@ -20,13 +20,11 @@ public class Main {
 
             if(tm=='('){
                 if(s.size()==len){
-                    System.out.print("error");
                     return false;
                 }
                 s.push(tm);
             }else{
                 if(s.size()==0){
-                    System.out.print("error");
                     return false;
                 }
                 s.pop();
