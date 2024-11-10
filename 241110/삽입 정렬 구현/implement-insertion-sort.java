@@ -20,7 +20,7 @@ public class Main {
     public static void insertSort(int[] A){
         int size = A.length;
 
-        for(int i=1; i<size-1; i++){
+        for(int i=1; i<size; i++){
             int j = i-1;
             int key = A[i];
 
