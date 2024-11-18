@@ -35,6 +35,7 @@ public class Main {
             }
         }
         li = wd.listIterator();
+        
         while(li.hasNext()){
             System.out.print(li.next());
         }
