@@ -10,7 +10,7 @@ public class Main {
         
         for(int i=0; i<m; i++){
             char c = word.charAt(i);
-            wd.add(c);
+            wd.addLast(c);
         }
 
         ListIterator li = wd.listIterator(wd.size());
