@@ -8,14 +8,14 @@ public class Main {
         String word = sc.next();
         LinkedList<Character> wd = new LinkedList<>();
         
-        for(int i=0; i<m; i++){
+        for(int i=0; i<n; i++){
             char c = word.charAt(i);
             wd.addLast(c);
         }
 
         ListIterator li = wd.listIterator(wd.size());
 
-        for(int i=0; i<n; i++){
+        for(int i=0; i<m; i++){
             char op = sc.next().charAt(0);
             if(op=='L'){
                 if(li.hasPrevious()){
