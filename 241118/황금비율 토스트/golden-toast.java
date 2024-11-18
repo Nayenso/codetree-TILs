@@ -3,13 +3,14 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+
         int n = sc.nextInt(), m = sc.nextInt();
         String word = sc.next();
         LinkedList<Character> wd = new LinkedList<>();
         
         for(int i=0; i<m; i++){
             char c = word.charAt(i);
-            wd.addLast(c);
+            wd.add(c);
         }
 
         ListIterator li = wd.listIterator(wd.size());
@@ -35,7 +36,7 @@ public class Main {
             }
         }
         li = wd.listIterator();
-        
+
         while(li.hasNext()){
             System.out.print(li.next());
         }
