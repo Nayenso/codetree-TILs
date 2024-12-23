@@ -13,8 +13,8 @@ public class Main {
 
         for(int i=0; i<=n-k; i++){
             int sum = 0;
-            for(int j=i; j<=i+k; j++){
-                sum+=arr[j];
+            for(int j=i; j<i+k; j++){
+                sum += arr[j];
             }
             if(sum>max){
                 max = sum;
