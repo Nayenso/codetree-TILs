@@ -13,7 +13,7 @@ public class Main {
             arr[i] = sc.nextInt();
         }
 
-        for(int i=0; i<N-T; i++){
+        for(int i=0; i<=N-T; i++){
             int sub = 0;
             for(int j=i; j<i+T; j++){
                 if(arr[j]==H){
