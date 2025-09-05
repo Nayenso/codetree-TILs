@@ -12,6 +12,6 @@ public class Main {
         sum = A+B;
         avg = sum/2.0;
 
-        System.out.print(sum+" "+avg);
+        System.out.printf("%d %.1f",sum,avg);
     }
 }
