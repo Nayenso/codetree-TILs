@@ -9,7 +9,7 @@ public class Main {
         if(str1.length()>str2.length()){
             System.out.print(str1+" "+str1.length());
         }else if(str1.length()<str2.length()){
-            System.out.print(str2" "+str2.length());
+            System.out.print(str2+" "+str2.length());
         }else{
             System.out.print("same");
         }
